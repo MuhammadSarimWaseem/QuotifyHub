@@ -48,6 +48,7 @@ h1 {
 }
 
 .fetch-button {
+  font-size: 1.5rem;
   font: inherit;
   cursor: pointer;
   padding: 1rem 2.5rem;
@@ -66,7 +67,7 @@ h1 {
 
 @media (max-width: 768px) {
   .quote {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     max-width: 80%;
     transition: none;
 
