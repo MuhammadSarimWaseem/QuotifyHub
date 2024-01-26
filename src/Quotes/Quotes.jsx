@@ -49,10 +49,10 @@ function Quotes() {
         {!loading && quotes.length > 0 ? (
           <ul>
             {quotes.map((quote, index) => (
-              <li className='quote' key={index}>
+              <div className='quote' key={index}>
                 <h2>- {quote.name}</h2>
                 <p>" {quote.text} "</p>
-              </li>
+              </div>
             ))}
           </ul>
         ) : (
