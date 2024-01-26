@@ -47,14 +47,14 @@ function Quotes() {
       </section>
       <section className='quotes-container'>
         {!loading && quotes.length > 0 ? (
-          <ul>
+          <div>
             {quotes.map((quote, index) => (
               <div className='quote' key={index}>
                 <h2>- {quote.name}</h2>
                 <p>" {quote.text} "</p>
               </div>
             ))}
-          </ul>
+          </div>
         ) : (
           <p className='loading-message'>{loading ? 'Loading....' : 'Quotes not found'}</p>
         )}
