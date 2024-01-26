@@ -1,3 +1,7 @@
+# Project Description
+
+QuotifyHub is a website that fetches quotes via API, providing users with a curated selection of inspirational and thought-provoking content.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
